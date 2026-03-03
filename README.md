@@ -40,8 +40,6 @@ npm run dev
 
 
 ## Author
-Aya Sahnoune  
-Full-Stack Developer | React • Next.js • Node.js • MongoDB
 
 Aya Sahnoune  
 Full-Stack Developer | React • Next.js • Node.js • MongoDB
