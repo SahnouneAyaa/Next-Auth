@@ -1,45 +1,65 @@
-# Next.js Authentication System
-A secure authentication system built with Next.js, TypeScript, NextAuth.js, MongoDB and Mongoose.
-This project implements a complete authentication workflow including email verification, secure sign-in, password reset and session management. It was developed as part of the **خير طبيبك** platform, an Algerian web application that connects patients with doctors.
+# 🔐 Next.js Authentication System
+
+A secure and scalable authentication system built with Next.js, TypeScript NextAuth.js and MongoDB.
+
+This project was developed as part of **Kheir Tabibak**, an Algerian healthcare platform designed to connect patients with doctors in a structured and secure way.
+
+---
+
+## Overview
+This system implements a complete authentication workflow including user registration, email verification, secure login, password reset and session management.
+
+---
 
 ## Tech Stack
 - Next.js (App Router)
 - TypeScript
-- Tailwind CSS
-- NextUI
 - NextAuth.js
+- Tailwind CSS
 - MongoDB
 - Mongoose
 - JWT
+- Nodemailer
+- Zod / React Hook Form
+
+---
 
 ## Features
+
+### 🔐 Authentication System
 - User registration with validation
-- Email verification via activation link
-- Secure login with NextAuth
-- Password reset via email
-- JWT-based session management
-- MongoDB integration with Mongoose
-- Separate models for **Doctor** and **Patient**
+- Secure login using NextAuth.js
+- Session management (JWT-based)
+- Role-based models (Doctor / Patient)
 
-## Project Structure
-src/
-app/ → authentication routes (signin, signup, reset password)
-components/ → UI components
-lib/ → utilities (JWT, mail, actions, templates)
-models/ → MongoDB models (Doctor, Patient)
-api/ → NextAuth configuration
+### 📧 Email System
+- Email verification with activation link
+- Password reset via secure token
+- HTML email templates using Handlebars
 
+### 🔁 Password Management
+- Forgot password flow
+- Reset password with JWT validation
+- Secure token-based flow
 
-## Run Locally
+### 👤 User Management
+- Separate models for Doctor and Patient
+- Profile page support
+- Structured user data handling
 
-Install dependencies:
+---
+
+## Installation
+
+```bash
 npm install
 
 Run development server:
 npm run dev
 
+Build:
+npm run build
 
-## Author
-
-Aya Sahnoune  
-Full-Stack Developer | React • Next.js • Node.js • MongoDB
+Start:
+npm start
+Script
