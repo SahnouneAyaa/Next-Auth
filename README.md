@@ -4,25 +4,10 @@ A secure and scalable authentication system built with Next.js, TypeScript NextA
 
 This project was developed as part of **Kheir Tabibak**, an Algerian healthcare platform designed to connect patients with doctors in a structured and secure way.
 
----
 
 ## Overview
 This system implements a complete authentication workflow including user registration, email verification, secure login, password reset and session management.
 
----
-
-## Tech Stack
-- Next.js (App Router)
-- TypeScript
-- NextAuth.js
-- Tailwind CSS
-- MongoDB
-- Mongoose
-- JWT
-- Nodemailer
-- Zod / React Hook Form
-
----
 
 ## Features
 
@@ -47,7 +32,18 @@ This system implements a complete authentication workflow including user registr
 - Profile page support
 - Structured user data handling
 
----
+
+## Tech Stack
+- Next.js
+- TypeScript
+- NextAuth.js
+- Tailwind CSS
+- MongoDB
+- Mongoose
+- JWT
+- Nodemailer
+- Zod / React Hook Form
+
 
 ## Installation
 
